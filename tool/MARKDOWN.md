@@ -131,7 +131,7 @@ __텍스트__
 코드는 마크다운 포맷때문에 예시가 겹쳐 표현할 수 없어서 밑에서 설명하도록 한다.
 
 ``` kotlin
-/* 코드를 아래처럼 넣어서 표현할 수 있.
+/* 코드를 아래처럼 넣어서 표현할 수 있다.
  * ` 코드 `
  **/
 ```
@@ -174,6 +174,5 @@ private int number = 3
 이미지는 `[![ImageTitle](ImageLink)](EmbeddingLink)` 를 넣어서 표현할 수 있다.  
 > 이미지 전체를 링크의 squared bracket 안에 넣으면 된다.
 
-[![Image](Icon-pictures.png "icon")](http://example.com)
-
+[![Image](/assets/markdown_sample.png)](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 

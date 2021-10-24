@@ -48,7 +48,7 @@ fun Greeting(name: String) {
 - 함수는 데이터를 받는다. 함수는 매개변수를 받을 수 있으며 이 매개변수를 통해 앱 로직이 UI를 형성할 수 있다. (위 예에서 Greeting 위젯은 String 을 받아서 이름을 표시하고 있다)
 - 텍스트 UI 요소를 생성하는 Text() 함수를 호출해서 UI에 텍스트를 표시한다.
 - 함수는 아무것도 반환하지 않는다. UI를 내보내는 Compose 함수는 UI 위젯을 구성하는 대신 원하는 화면 상태를 나타내주므로 아무것도 반환할 필요가 없다.
-- 이 함수는 빠르고 [멱등원](https://ko.wikipedia.org/wiki/%EB%A9%B1%EB%93%B1%EC%9B%90)이며 부작용이 없습니다.
+- 이 함수는 빠르고 [멱등원](https://ko.wikipedia.org/wiki/%EB%A9%B1%EB%93%B1%EC%9B%90)이며 부작용이 없다.
   - 함수는 동일한 인수로 여러 번 호출될 때 동일한 방식으로 작동하며, 전역 변수 또는 random() 호출과 같은 다른 값을 사용하지 않는다.
   - 함수는 속성 또는 전역 변수 수정과 같은 부작용(side-effects) 없이 UI를 형성합니다.
 
@@ -99,7 +99,7 @@ fun Greeting(names: List<String>) {
 기존의 명령형 UI 모델에서 위젯을 변경하려면 위젯에서 setter를 호출하여 내부 상태를 변경한다.  
 Compose에서는 새 데이터를 사용하여 composable 함수를 다시 호출한다.  
 이렇게 하면 함수가 재구성되며, 필요한 경우 함수에서 내보낸 위젯이 새 데이터로 다시 그려진다.  
-Compose 프레임워크는 변경된 구성요소만 지능적으로 재구성할 수 있습니다.
+Compose 프레임워크는 변경된 구성요소만 지능적으로 재구성할 수 있다.
 
 예를 들어 다음과 같은 counter 버튼을 표시하는 composable 함수가 있다면,  
 ``` kotlin
@@ -234,7 +234,7 @@ fun ListWithBug(myList: List<String>) {
 UI의 일부가 잘못된 경우 Compose는 업데이트해야 하는 부분만 재구성하기 위해 최선을 다한다.  
 즉, UI 트리에서 위 또는 아래에 있는 컴포저블을 실행하지 않고 단일 버튼의 컴포저블을 다시 실행하는 것을 건너뛸 수 있다.
 
-모든 composable 함수 및 람다는 자체적으로 recomposition 할 수 있습니다. 다음은 목록을 렌더링할 때 recomposition 이 일부 요소를 건너뛸 수 있는 방법을 보여주는 예시 이다.
+모든 composable 함수 및 람다는 자체적으로 recomposition 할 수 있다. 다음은 목록을 렌더링할 때 recomposition 이 일부 요소를 건너뛸 수 있는 방법을 보여주는 예시 이다.
 
 ``` kotlin
 /**

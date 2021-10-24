@@ -1,4 +1,4 @@
-# Compose
+# ComposeBase
 
 이번 문서는 [Android-Compose 공식문서](https://developer.android.com/jetpack/compose/mental-model) 기반으로 작성하였다.
 

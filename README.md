@@ -22,9 +22,9 @@
 
 - jetpack
   - Compose
-    - [ComposeBase](/android/jetpack/compose/ComposeBase.md)
-    - [ComposeState](/android/jetpack/compose/ComposeState.md)
-  - [Hilt](/android/jetpack/Hilt.md)
+    - [🕋 ComposeBase](/android/jetpack/compose/ComposeBase.md)
+    - [🕋 ComposeState](/android/jetpack/compose/ComposeState.md)
+  - [⚔️ Hilt](/android/jetpack/Hilt.md)
 
 ### kotlin
 
@@ -35,7 +35,7 @@
 
 ### tool
 
-- [Markdown](/tool/MARKDOWN.md)
+- [📝 Markdown](/tool/MARKDOWN.md)
 
 - git
-  - [GitIgnore](/tool/git/GitIgnore.md)
+  - [🚫 GitIgnore](/tool/git/GitIgnore.md)

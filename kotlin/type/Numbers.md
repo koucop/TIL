@@ -1,4 +1,4 @@
-# [Numbers](https://kotlinlang.org/docs/basic-types.html#numbers)
+# 🔢 [Numbers](https://kotlinlang.org/docs/basic-types.html#numbers)
 
 ## Integer types (정수형 타입들)
 

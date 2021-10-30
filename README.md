@@ -29,9 +29,9 @@
 ### kotlin
 
 - type
-  - [Numbers](/kotlin/type/Numbers.md)
+  - [🔢 Numbers](/kotlin/type/Numbers.md)
 
-- [Generics](/kotlin/Generics.md)
+- [👨‍👦 Generics](/kotlin/Generics.md)
 
 ### tool
 

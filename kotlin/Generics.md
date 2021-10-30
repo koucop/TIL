@@ -1,4 +1,4 @@
-# Generics
+# 👨‍👦 Generics
 
 이 문서는 [Kotlin-generics 공식문서](https://kotlinlang.org/docs/generics.html) 기반으로 작성하였다.
 

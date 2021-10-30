@@ -67,7 +67,7 @@ Compose의 선언형 접근 방식에서 위젯은 비교적 스테이트리스(
 상위 수준 객체부터 하위 요소까지 Compose UI의 데이터 흐름을 보여주는 그림  
 앱 로직은 최상위의 composable 함수에 데이터를 제공한다. 그러면 함수는 데이터를 사용하여 다른 composable을 호출함으로써 UI를 형성하고 적절한 데이터를 해당 composable 및 계층 구조 아래로 전달한다.
 
-![Image](/assets/mmodel-flow-data.png)
+![Image](./img/mmodel-flow-data.png)
 
 ### event
 
@@ -76,7 +76,7 @@ Compose의 선언형 접근 방식에서 위젯은 비교적 스테이트리스(
 앱 로직에 의해 처리되는 이벤트를 트리거하여 UI 요소가 상호작용에 어떻게 응답하는지 보여주는 그림  
 사용자가 UI 요소와 상호작용하며 이에 따라 이벤트가 트리거된다. 앱 로직이 이벤트에 응답합니다. 그러면 composable 함수가 필요한 경우 새 매개변수를 사용하여 자동으로 다시 호출됩니다.
 
-![Image](/assets/mmodel-flow-events.png)
+![Image](./img/mmodel-flow-events.png)
 
 ## Dynamic Content (동적 콘텐츠)
 

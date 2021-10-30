@@ -203,7 +203,7 @@ HelloContent에서 상태를 끌어올리면(hoisting) 더 쉽게 composable 을
 HelloContent는 상태의 저장 방식과 디커플링(분리)된다.  
 디커플링 된다는 것은 HelloScreen을 수정하거나 교체할 경우 HelloContent의 구현 방식을 변경할 필요가 없다는 의미이다.
 
-![Image](/assets/udf-hello-screen.png)
+![Image](./img/udf-hello-screen.png)
 
 상태가 내려가고 이벤트가 올라가는 패턴을 *단방향 데이터 흐름*이라고 한다.  
 이 경우 상태는 HelloScreen에서 HelloContent로 내려가고 이벤트는 HelloContent에서 HelloScreen으로 올라간다.  
@@ -321,7 +321,7 @@ State holders 는 복합 가능하다. 즉, 상태 보유자는 특히 상태를
 - 일반 state holders 는 비즈니스 로직 또는 화면 상태에 대한 접근이 필요한 경우 ViewModel에 의존할 수 있다.
 - ViewModel은 비즈니스 또는 데이터 계층에 따라 다르다.
 
-![Image](/assets/state-dependencies.svg)
+![Image](./img/state-dependencies.svg)
 
 ### Types of state and logic(상태와 로직의 유형)
 

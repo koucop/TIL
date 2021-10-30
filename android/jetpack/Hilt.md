@@ -321,7 +321,7 @@ class MainAdapter @Inject constructor(
 
 ## 구성요소 계층 구조
 
-![Image](/assets/hilt_hierarchy.svg)
+![Image](./img/hilt_hierarchy.svg)
 
 기본적으로 뷰에서 필드 삽입을 실행하면 ViewComponent는 ActivityComponent에 정의된 결합을 사용할 수 있다. FragmentComponent에 정의된 결합도 사용해야 하며 뷰가 프래그먼트의 일부라면 @AndroidEntryPoint와 함께 @WithFragmentBindings annotation 을 사용하면 된다.
 

@@ -174,5 +174,5 @@ private int number = 3
 이미지는 `[![ImageTitle](ImageLink)](EmbeddingLink)` 를 넣어서 표현할 수 있다.  
 > 이미지 전체를 링크의 squared bracket 안에 넣으면 된다.
 
-[![Image](/assets/markdown_sample.png)](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
+[![Image](./img/markdown_sample.png)](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 

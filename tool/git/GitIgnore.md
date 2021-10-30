@@ -1,4 +1,4 @@
-# GitIgnore
+# 🚫 GitIgnore
 
 git 으로 작업할 때, commit에 포함시키고 싶지 않을 때가 있다.  
 commit 에 포함시키지 않기 위해서는 그 규칙을 해당 repository 최상위에 .gitignore 를 만들고  

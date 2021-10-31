@@ -39,7 +39,7 @@
 
 ### tool
 
-- [📝 Markdown](/tool/MARKDOWN.md)
+- [📝 Markdown](/tool/Markdown.md)
 
 - git
   - [🚫 GitIgnore](/tool/git/GitIgnore.md)

@@ -29,7 +29,11 @@
 ### kotlin
 
 - type
+  - [Arrays](/kotlin/type/Arrays.md)
+  - [Booleans](/kotlin/type/Booleans.md)
+  - [Characters](/kotlin/type/Characters.md)
   - [🔢 Numbers](/kotlin/type/Numbers.md)
+  - [Strings](/kotlin/type/Strings.md)
 
 - [👨‍👦 Generics](/kotlin/Generics.md)
 

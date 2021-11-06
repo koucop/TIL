@@ -1,4 +1,4 @@
-# Run NonCancellable Block
+# Run non cancellable block
 
 이전 예제의 finally block에서 suspend functinon 을 사용하려고 하면 이 코드를 실행하는 코루틴이 취소되기 때문에 `CancellationException`이 발생한다.  
 정상적으로 작동하는 모든 closing operations(닫기 작업)(e.g. 파일 닫기, 작업 취소 또는 모든 종류의 통신 채널 닫기)은 일반적으로 non-blocking 이고, suspend function 을 포함하지 않기 때문에 일반적으로 문제가 되지 않는다.  

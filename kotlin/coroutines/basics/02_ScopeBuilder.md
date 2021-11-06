@@ -20,4 +20,6 @@ suspend fun doWorld() = coroutineScope {  // this: CoroutineScope
     }
     println("Hello")
 }
+// Hello
+// World!
 ```

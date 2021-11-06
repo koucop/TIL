@@ -1,4 +1,4 @@
-# CancellingCoroutineExecution
+# Cancelling coroutine execution
 
 long-running application(장기 실행 애플리케이션)에서는 백그라운드 코루틴에 대한 세밀한 제어가 필요할 수 있다.  
 예를 들어 사용자가 코루틴을 시작한 페이지를 닫았을 수 있으며 이제 그 결과가 더 이상 필요하지 않아 작업을 취소해야 할 수 있다.  

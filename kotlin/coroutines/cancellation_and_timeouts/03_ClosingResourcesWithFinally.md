@@ -1,4 +1,4 @@
-# ClosingResourcesWithFinally
+# Closing resources with finally
 
 cancellable(취소 가능)한 suspend functino 은 취소 시 일반적인 방법으로 처리할 수 있는 `CancellationException`을 발생시킨다.  
 예를 들어 `try {...} finally {...}` expression(표현식) 과 Kotlin `use` function 은 코루틴이 취소될 때 정상적으로 finalization actions(종료 작업)을 실행한다.

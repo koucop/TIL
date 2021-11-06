@@ -1,4 +1,4 @@
-# MakingComputationCodeCancellable
+# Making computation code cancellable
 
 computation code(계산 코드)를 cancellabel(취소 가능)하게 만드는 방법에는 두 가지가 있다.  
 1. 취소를 확인하는 suspend function 을 주기적으로 호출하는 것 (e.g. [yield](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/yield.html) function) 

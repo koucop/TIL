@@ -198,7 +198,7 @@ covariant 는 `*` 를 만나면 `out Any?` 로 변하고, contravariant는 `*`�
 ## Why in, out?
 
 그렇다면 Kotlin 에서는 왜 Convariant 와 Contravariant 에 out과 in 이라는 키워드를 사용할까?  
-일단, C#에서도 Kotlin과 같이 convariant 와 contravariant 를 out, in 키워드로 사용한는데,  
+일단, C#에서도 Kotlin과 같이 convariant 와 contravariant 를 out, in 키워드로 사용하는데,  
 공식 홈페이지에서 아래와 같이 설명하고 있는 것을 보면 Kotlin 에서 이 개념을 그대로 가져온듯 하다.  
 
 >The words in and out seem to be self-explanatory (as they’ve already been used successfully in C# for quite some time)

@@ -176,3 +176,10 @@ private int number = 3
 
 [![Image](./img/markdown_sample.png)](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 
+## Youtube
+
+markdown 에서 youtube 썸네일과 해당 영상으로 넘어가게끔 하고 싶다면,  
+`[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)`  
+YOUTUBE_VIDEO_ID 부분을 채워넣으면 된다.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/noZnOSpcjYY/0.jpg)](https://www.youtube.com/watch?v=noZnOSpcjYY)

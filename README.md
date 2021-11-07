@@ -34,7 +34,7 @@
 ### kotlin
 
 - 🏃‍♂️ coroutines
-  - basics(/kotlin/coroutines/basics)
+  - [basics](/kotlin/coroutines/basics)
 
 - type
   - [Arrays](/kotlin/type/Arrays.md)

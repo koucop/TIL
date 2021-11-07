@@ -34,13 +34,7 @@
 ### kotlin
 
 - 🏃‍♂️ coroutines
-  - basics
-    - [YourFirstCoroutine](/kotlin/coroutines/basics/00_YourFirstCoroutine.md)
-    - [ExtractFunctionRefactoring](/kotlin/coroutines/basics/01_ExtractFunctionRefactoring.md)
-    - [ScopeBuilder](/kotlin/coroutines/basics/02_ScopeBuilder.md)
-    - [ScopeBuilderAndConcurrency](/kotlin/coroutines/basics/03_ScopeBuilderAndConcurrency.md)
-    - [AnExplicitJob](/kotlin/coroutines/basics/04_AnExplicitJob.md)
-    - [CoroutinesAreLight-Weight](/kotlin/coroutines/basics/05_CoroutinesAreLight-Weight.md)
+  - basics(/kotlin/coroutines/basics)
 
 - type
   - [Arrays](/kotlin/type/Arrays.md)

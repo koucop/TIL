@@ -17,7 +17,7 @@
 
 ## Singleton pattern 종류
 
-1. Eager Initialization
+### 1. Eager Initialization
 
 Eager Initialization 은 Singleton pattern 중에서 가장 간단한 형태의 방식이다. 
 
@@ -38,7 +38,7 @@ public class EagerInitialization {
 
 EagerInitialization 를 사용하는 경우는 보통 class 가 적은 리소스를 다룰 때여야 하고, 이 방식은 Exception 에 대한 Handling 도 제공하지 않기 때문에 보통 권장되진 않는다.
 
-2. Static Block Initialization
+### 2. Static Block Initialization
 
 Static Block Initialization 은 이름 그대로 static block 을 사용해서 Exception 에 대한 Handling 을 제공한다.
 
@@ -67,7 +67,7 @@ public class StaticBlockInitialization {
 
 위의 예시에서 확인할 수 있듯이 나머지는 Eager Initialization 과 상당히 유사하지만 static block 을 통해 Exception 에 대한 Handling 을 지원하고 있다. 하지만 Eager Initialization과 동일하게 instance 를 생성하는 것을 application 생성시에 하기 때문에(정확하게는 class 로딩할 때) class 가 적은 리소스를 다룰 때 사용하여야 한다.
 
-3. Lazy Initialization
+### 3. Lazy Initialization
 
 Lazy Initialization 은 Eager Initialization 과 Static Block Initialization 에서 문제과 되었던 instance 의 생성을 class 로딩시가 아니라 getInstance() 함수가 불릴 때로 이후로 미루는 방식이다.
 
@@ -91,7 +91,7 @@ public class LazyInitialization {
 
 위와 같이 multi-thread 환경에서 문제가 발생할 수 있다는 것은 단 하나의 instance 를 제공하기 위한 singleton pattern 자체를 위반하는 문제이기 때문에 single-thread 환경이 보장되지 않는다면 절대 사용해선 안된다.
 
-4. Thread Safe Singleton
+### 4. Thread Safe Singleton
 
 Thread Safe Singleton 은 Lazy Initialization 의 multi-thread 환경에서의 문제를 해결하기 위한 방법으로, Critical Section(임계 영역)을 형성해 해당 영역에 오직 하나의 쓰레드만 접근 가능하게 해주는 synchronized 키워드를 getInstance() 메소드에 걸어두는 방식이다.
 
@@ -130,7 +130,7 @@ public static ThreadSafeSingleton getInstance(){
 
 
 
-5. Bill Pugh Singleton Implementaion
+### 5. Bill Pugh Singleton Implementaion
 
 위에서 얘기했던 방식들이 가지고있는 문제점들을 대부분 해결한 방식으로, inner static helper class 를 사용해서 singleton pattern 을 구현한 방식이다.
 

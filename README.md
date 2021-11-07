@@ -26,6 +26,11 @@
     - [🕋 ComposeState](/android/jetpack/compose/ComposeState.md)
   - [⚔️ Hilt](/android/jetpack/Hilt.md)
 
+### design pattern
+
+- creational
+  - [1️⃣ SingletonPattern](/design_pattern/creational/SingletonPattern.md)
+
 ### kotlin
 
 - 🏃‍♂️ coroutines

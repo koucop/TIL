@@ -62,4 +62,4 @@ fun main() {
 ```
 
 할당을 가로채 거부하려면 `observable()` 대신 `vetoable()`을 사용하면 된다.  
-`vetoable`에 전달된 `handler` 는 새 속성 값을 할당하기 전에 호출됩니다.
+`vetoable`에 전달된 `handler` 는 새 속성 값을 할당하기 전에 호출된다.

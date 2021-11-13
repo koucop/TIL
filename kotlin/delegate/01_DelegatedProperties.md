@@ -40,9 +40,8 @@ val e = Example()
 println(e.p)
 
 e.p = "NEW"
+
+// output
+// "$thisRef, thank you for delegating 'p' to me!"
+// "$value has been assigned to 'p' in $thisRef."
 ```
-
-다음은 각각 아래의 예시를 프린트한다.  
-
-"$thisRef, thank you for delegating 'p' to me!"
-"$value has been assigned to 'p' in $thisRef."
